@@ -6,8 +6,24 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <Grid Width="auto" Height="auto">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
-    </StackPanel>
+        <TextBlock Grid.Column="0" Grid.Row="0"  Text="Enter your note here" />
+        <RichEditBox
+            AutomationProperties.Name="Enter your note here"
+            Width="auto"
+            Height="auto"
+            Header="Enter your note here"
+            Grid.Column="1"
+            Grid.Row="0"
+            />
+    </Grid>
 </Window>
