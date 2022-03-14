@@ -14,7 +14,8 @@
         
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
 
         <TextBlock Grid.Column="0" Grid.Row="0"  Text="Enter your note here" />
         <RichEditBox
@@ -25,5 +26,6 @@
             Grid.Column="1"
             Grid.Row="0"
             />
+
     </Grid>
 </Window>
