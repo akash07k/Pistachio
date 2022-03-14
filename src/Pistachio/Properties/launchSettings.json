@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Pistachio (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Pistachio (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
