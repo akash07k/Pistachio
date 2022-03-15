@@ -9,6 +9,8 @@ global using System.Text;
 global using System.Threading.Tasks;
 global using Windows.ApplicationModel;
 global using Windows.ApplicationModel.Activation;
+global using Windows.ApplicationModel.Resources;
+global using Windows.ApplicationModel.Resources.Core;
 global using Windows.Foundation;
 global using Windows.Foundation.Collections;
 global using System.Windows.Input;
