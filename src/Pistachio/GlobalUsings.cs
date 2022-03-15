@@ -1,4 +1,5 @@
-﻿global using System;
+﻿// Global usings for entire project
+global using System;
 global using System.Collections.Generic;
 global using System.Collections.ObjectModel;
 global using System.Collections.Specialized;
@@ -29,5 +30,5 @@ global using Microsoft.UI.Xaml.Navigation;
 global using Microsoft.UI.Xaml.Shapes;
 
 global using Pistachio.Models;
-
+global using Pistachio.ViewModels;
 
