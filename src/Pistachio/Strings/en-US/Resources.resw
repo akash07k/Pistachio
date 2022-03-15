@@ -124,4 +124,13 @@
   <data name="AppDisplayName" xml:space="preserve">
     <value>Pistachio</value>
   </data>
+  <data name="NoteContentEditBox.Header" xml:space="preserve">
+    <value>Enter Your Note Here</value>
+  </data>
+  <data name="NoteContentEditBox.PlaceholderText" xml:space="preserve">
+    <value>Enter your note content here (Supports markdown too)</value>
+  </data>
+  <data name="NoteContentTextBlock.Text" xml:space="preserve">
+    <value>Enter Your Note Here</value>
+  </data>
 </root>

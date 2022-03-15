@@ -3,9 +3,11 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Pistachio"
+    xmlns:model="using:Pistachio.Models"    
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    
     <Grid Width="auto" Height="auto">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto" />
@@ -17,12 +19,11 @@
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Column="0" Grid.Row="0"  Text="Enter your note here" />
+        <TextBlock Grid.Column="0" Grid.Row="0"  x:Uid="NoteContentTextBlock" />
         <RichEditBox
-            AutomationProperties.Name="Enter your note here"
             Width="auto"
             Height="auto"
-            Header="Enter your note here"
+x:Uid="NoteContentEditBox"
             Grid.Column="1"
             Grid.Row="0"
             />
