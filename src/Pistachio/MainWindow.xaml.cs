@@ -1,6 +1,8 @@
 ﻿// To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
+using WinRT;
+
 namespace Pistachio
 {
     /// <summary>
@@ -8,6 +10,9 @@ namespace Pistachio
     /// </summary>
     public sealed partial class MainWindow : Window
     {
+
+        internal MainViewModel ViewModel { get; } = (Application.Current as App).Container.GetService<MainViewModel>();
+
         public MainWindow()
         {
             this.InitializeComponent();
