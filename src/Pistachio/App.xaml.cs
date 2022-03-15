@@ -15,7 +15,11 @@ namespace Pistachio
         public App()
         {
             this.InitializeComponent();
-        }
+
+            // Enable the sound queues across the app
+            ElementSoundPlayer.State = ElementSoundPlayerState.On;
+            ElementSoundPlayer.SpatialAudioMode = ElementSpatialAudioMode.On;
+                    }
 
         /// <summary>
         /// Invoked when the application is launched normally by the end user.  Other entry points
