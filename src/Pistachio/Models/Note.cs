@@ -1,6 +1,6 @@
 ﻿namespace Pistachio.Models
 {
-    internal class Notes
+    internal class Note
     {
 
 
