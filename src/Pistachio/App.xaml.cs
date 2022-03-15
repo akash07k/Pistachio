@@ -8,6 +8,9 @@ namespace Pistachio
     /// </summary>
     public partial class App : Application
     {
+
+        private Window _MainWindow;
+
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -28,10 +31,9 @@ namespace Pistachio
         /// <param name="args">Details about the launch request and process.</param>
         protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
         {
-            m_window = new MainWindow();
-            m_window.Activate();
+            _MainWindow = new MainWindow();
+            _MainWindow.Activate();
         }
 
-        private Window m_window;
     }
 }
