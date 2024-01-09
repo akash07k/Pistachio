@@ -1,7 +1,8 @@
 {
   "name": "pistachio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A versatile productivity and organization app that seamlessly integrates note-taking, journaling, clipboard management, diary keeping, and to-do list functionalities",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,6 +15,21 @@
     "release": "commit-and-tag-version",
     "tauri": "tauri"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akash07k/ButterKnife.git"
+  },
+  "keywords": [
+    "Pistachio",
+    "Note Taking",
+    "Note Taker"
+  ],
+  "author": "Akash Kakkar",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/akash07k/Pistachio/issues"
+  },
+  "homepage": "https://github.com/akash07k/Pistachio#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
