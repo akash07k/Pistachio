@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "commit-and-tag-version"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -25,6 +26,7 @@
     "@typescript-eslint/eslint-plugin": "^6.18.0",
     "@typescript-eslint/parser": "^6.18.0",
     "@vitejs/plugin-react": "^4.2.1",
+    "commit-and-tag-version": "^12.1.0",
     "commitizen": "^4.3.0",
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
