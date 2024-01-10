@@ -31,6 +31,11 @@
   },
   "homepage": "https://github.com/akash07k/Pistachio#readme",
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.4",
+    "@mui/material": "^5.15.4",
+    "@mui/x-tree-view": "^6.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
