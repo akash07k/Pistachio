@@ -9,6 +9,8 @@ function App() {
           <img src="https://img.shields.io/github/stars/akash07k/Pistachio?style=social" alt="GitHub Repo stars" />
         </a>
       </header>
+      <main>
+      </main>
     </>
   )
 }
